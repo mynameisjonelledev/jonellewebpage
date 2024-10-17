@@ -1,0 +1,270 @@
+P {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.thumbnail1-image, .thumbnail2-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thumbnail1-title, .thumbnail2-title {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+
+
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.channel-picture  {
+    width: 50px;
+    vertical-align: top;
+}
+
+
+.channel-picture2 {
+    width: 50px;
+    vertical-align: top;
+
+}
+
+
+.channelpicture, .channelpicture2 {
+    width: 36px;
+    border-radius: 50px;
+}
+
+.thumbnail-row {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.thumbnail1-author, .thumbnail-views {
+    font-size: 14px;
+    color: rgb(96,96,96);
+}
+
+.thumbnail1-author {
+    margin-bottom: 6px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+@media (max-width:750px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:1000px)  {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .thumbnail1-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .thumbnail1-author, .thumbnail-views {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 751px) and (max-width:999px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+ 
+@media (max-width:1200px) {
+    .video-grid {
+        margin-left: 100px;
+    }
+}
+
+body {
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(248,248,248);
+    /* This is my very first web dev, project. I'm so happy! */
+}
+
+.video-time {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-family: Roboto,Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+}
+
+
+
+.middle-bar-all {
+    margin-bottom: 15px;
+    background-color: #f1f1f1;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.middle-bar-all:hover {
+    opacity: 0.7;
+}
+
+.middle-bar-main-container {
+    z-index: 1;
+    position:fixed;
+    background-color: white;
+    top: 56px;
+    right: 0;
+    left: 95px;
+    padding-bottom: -5px;
+    padding-top: 5px;
+}
+
+.channel-picture {
+    position: relative;
+}
+
+.channel-picture .tooltip {
+   position: absolute;
+   
+    background-color: rgb(107, 105, 105);
+    color: white;
+    width: 200px;
+    height: 120px;
+    z-index: 1;
+}
+
+.channel-picture .tooltip {
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 5px;
+
+}
+
+.channel-picture:hover .tooltip {
+    opacity: 1;
+}
+
+.channelpicture {
+    margin-left: 5px;
+    margin-right: 5px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+}
+
+ .channel-picture .tooltip-author {
+    margin-top: 30px;
+}
+
+.tooltip-channelpicture2 {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.tooltip1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(104, 42, 42);
+}
+
+.channel-picture {
+    position: relative;
+}
+
+.tooptip-channel-picture2 {
+    background-color: rgb(104, 42, 42);
+}
+
+.channel-picture-tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+
+    bottom: 45px;
+    right: -20px;
+    opacity: 0;
+    padding: 5px;
+    pointer-events: none;
+}
+
+.channel-picture:hover .channel-picture-tooltip {
+    opacity: 1;
+}
+
+.footer-main-container {
+    margin-top: 50px;
+    font-family: Roboto,Arial;
+    color: gray;
+    font-size: 15px;
+    align-items: center;
+   
+    display: flex;
+    justify-content: center;
+}
+
+.footer-jonelle {
+   padding-bottom: 10px;
+   font-weight: 500px;
+}
+
+.footer-jonelle-color {
+    color: red;
+    font-weight: bold;
+}
+
+::webkit-scrollbar {
+    width:10px;
+}
+
+::webkit-scrollbar-track {
+    box-shadow:inset 0 0 5px gray;
+}
+
+::-webkit-scrollbar-thumb {
+        background: gray;
+        border-radius: 10px;
+}

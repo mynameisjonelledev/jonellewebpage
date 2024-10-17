@@ -1,0 +1,105 @@
+.header-container-sections {
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: center;
+
+    background-color: white;
+    position: fixed;
+}
+
+.header-logo {
+    width: 200px;
+    object-fit: cover;
+     padding-top: 0;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    padding-left: 50px;
+
+}
+
+.header-logo-main-container {
+    display: flex;
+    flex-direction: row;
+   
+    margin-top: 5px;
+
+    position: relative;
+}
+
+.header-logo-main-container:hover {
+    opacity: 1;
+}
+
+
+.header-logo:hover {
+    opacity: 0.7;
+}
+
+.header-logo:active {
+    opacity: 0.9;
+}
+
+.middle-section-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tooltip {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 50px;
+
+    background-color: rgb(233, 152, 152);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.tooltip:hover {
+    opacity: 1;
+}
+
+.middle-section-container {
+    width: 900px;
+}
+
+.right-section-container {
+    width: 300px;
+}
+
+@media (min-width:5760px) {
+    .header-container-sections {
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+
+.middle-section-container button {
+    background-color: #E8C498;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.middle-section-container button:hover {
+    cursor: pointer;
+    background-color: #d8ad7c;
+    color: black;
+}
+

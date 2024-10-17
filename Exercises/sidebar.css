@@ -1,0 +1,54 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+}
+
+.sidebar-link {
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+
+.sidebar-link:hover {
+    background-color: rgb(235,235,235);
+}
+
+.sidebar-link img {
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+
+@media (max-width:1200px) { /* This media tag is para sa mga screens, ung monitors. */
+    .sidebar {              /* Dito, tinarget natin ung sidebar para pag malaking screen, lalaki din sya. */
+        width: 150px;
+    }
+
+    .sidebar-link {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        height: 50px;
+        padding-left: 20px;
+    }
+
+    .sidebar-link div {
+        margin-left: 15px;
+    }
+
+}
+
