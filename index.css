@@ -1,0 +1,695 @@
+body, button, div, a {
+  font-family: Gothic A1;
+  color: white;
+}
+
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+
+  height: 1000px;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: orange;
+}
+
+.navigation-container {
+  background-color: black;
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  vertical-align: middle;
+  align-items: center;
+  align-content: center;
+  position: fixed;
+
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo-white.png {
+  width: 50px;
+}
+
+.name {
+  margin-left: right;
+  font-size: 25px; 
+  width: 200px;
+  text-align: center;
+}
+
+.ul-con-li {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.li-style {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+
+.btn-resume {
+  background-color: orange;
+  border: none;
+  color: white;
+  width: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: x-small;
+  font-weight: 500;
+  transition: opacity 0.15s;
+}
+
+.btn-resume:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn-resume:active {
+  opacity: 0.6;
+}
+
+.testing {
+  margin-top: 100px;
+}
+
+
+#scroll-up-arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none; /* Initially hidden */
+}
+
+.img-con {
+  margin-top: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the image vertically */
+  width: 100%; /* Make the container full width */
+  height: 100vh; /* Make the container full height */
+}
+ .img-img {
+  max-width: 100%;
+  max-height: 100%;
+  filter: blur(2px);;
+ }
+
+ .text-overlay {
+  position: absolute; /* Position the text relative to the container */
+  top: 40%; /* Center the text vertically */
+  left: 20%; /* Center the text horizontally */
+  transform: translate(-20%, -20%); /* Adjust positioning for accurate centering */
+  color: white; /* Set the text color (adjust as needed) */
+  font-size: 24px; /* Set the font size (adjust as needed) */
+  text-align: start; /* Center the text horizontally */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1); /* Add a semi-transparent background for readability */
+  padding: 10px; /* Add padding for spacing */
+
+  display: flex;
+}
+
+
+.links-overlay {
+  position: absolute; /* Position the text relative to the container */
+  top: 90%; /* Center the text vertically */
+  left: 17%; /* Center the text horizontally */
+  transform: translate(-20%, -20%); /* Adjust positioning for accurate centering */
+  color: white; /* Set the text color (adjust as needed) */
+  font-size: 18px; /* Set the font size (adjust as needed) */
+  text-align: start; /* Center the text horizontally */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.2); /* Add a semi-transparent background for readability */
+  padding: 10px; /* Add padding for spacing */
+
+  display: flex;
+
+}
+
+.links-links {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.links-links:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+.line-orange {
+  color: orange;
+  font-size: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.front-greet {
+  margin-top: 10px;
+  font-size: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  line-height: 55px;
+
+}
+
+.frontend-color {
+  transition: color 0.15s;
+}
+.frontend-color:hover {
+  color: orange;
+  cursor: default;
+}
+
+.spacing-section1 {
+  height: 150px;
+}
+
+.about-section-con {
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.aboutMe-left {
+  width: 100%;
+  color: white;
+}
+
+.about-left-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 10px;
+  font-size: small;
+  color: orange;
+}
+
+.about-left-details {
+  margin-top: 70px;
+  text-wrap: wrap;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.about-left-profile {
+  margin-top: 100px;
+  font-size: 25px;
+}
+
+.about-left-profile-text {
+  margin-top: 10px;
+  text-wrap: wrap;
+  font-size: 18px;
+  line-height: 30px;
+  width: 525px;
+}
+
+.aboutMe-right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-right-img {
+  width: 400px;
+  border-radius: 200px;
+  border: 5px solid orange;
+}
+
+.career-con {
+  color:white;
+
+  padding-left: 50px;
+  padding-right: 50px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.career-title {
+  font-size: 25px;
+}
+
+.career-line {
+  margin-top: 30px;
+  border-top:2px solid orange;
+  width: 500px;
+  padding-bottom: 30px;
+  margin-right: 20px;
+}
+
+.career-line-2 {
+  margin-top: 61px;
+  border-top:2px solid orange;
+  width: 500px;
+  padding-bottom: 30px;
+  
+  justify-content: center;
+}
+
+.career-left {
+  padding-right: 20px;
+}
+
+.career-company-role {
+   display: flex;
+   flex-direction: row;
+  width: 100%;
+}
+
+.career-company {
+  max-width: 67%;
+  width: 67%;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  
+}
+
+.career-role {
+  max-width: 30%;
+  width: 30%;
+}
+
+.career-dates-con {
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.career-details {
+  margin-top: 30px;
+  font-size: large;
+  width: 550px;
+
+  padding-bottom: 40px;
+}
+
+.career-right {
+  padding-left: 40px;
+}
+
+.space-dark {
+  color: wheat;
+  margin-top: 200px;
+  background-color: red;
+  margin-bottom: 0;
+  height: 600px;
+}
+
+.expertise-con {
+  color: white;
+
+  padding-left: 50px;
+  padding-right: 50px;
+
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.exp-left {
+  width: 50%;
+  padding: 10px;
+  padding-right: 150px;
+}
+
+.exp-left-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 10px;
+  font-size: small;
+  color: orange;
+}
+
+.exp-left-details {
+  margin-top: 70px;
+  text-wrap: wrap;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.exp-left-info {
+  margin-top: 40px;
+  font-size: 18px;
+  width: 520px;
+  line-height: 20px;
+}
+
+.exp-right {
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.exp-right-line {
+  border-top: 1px solid orange;
+  width: 500px;
+}
+
+.exp-skill-title {
+  margin-top: 20px;
+  text-align: start;
+  margin-bottom: 20px;
+
+  font-size: 30px;
+  transition: color 0.15s;
+}
+
+.exp-skill-details {
+  margin-bottom: 30px;
+}
+
+.spacing-section2 {
+  height: 150px;
+}
+
+.portfolio-con {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.portfolio-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 10px;
+  font-size: small;
+  color: orange;
+}
+
+.portfolio-details {
+  margin-top: 70px;
+  text-wrap: wrap;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.portfolio-img-con {
+  margin-top: 60px;
+}
+
+.portfolio-img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* copied from gemini */
+
+.portfolio-img-con {
+  position: relative; /* Needed for absolute positioning of hover elements */
+}
+
+.portfolio-img {
+  transition: opacity 0.3s ease-in-out; /* Transition for image opacity on hover */
+}
+
+.portfolio-img:hover {
+  opacity: 0.7; /* Image becomes 70% opaque on hover */
+  filter: grayscale(50%); /* Add a grayscale effect on hover (optional) */
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out; /* Transition for overlay opacity */
+}
+
+.portfolio-img-con:hover .hover-overlay {
+  opacity: 1; /* Overlay becomes fully visible on hover */
+}
+
+.project-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 20px; /* Adjust font size as needed */
+  font-weight: bold;
+  text-align: left; /* Align text to the left */
+}
+
+.view-button {
+  position: absolute; /* Position button within the image container */
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: orange; /* Blue background */
+  color: white;
+  border: none;
+  cursor: pointer; /* Indicate clickable button */
+  font-family: Gothic A1;
+  border-radius: 10px;
+}
+
+/* copied above */
+
+.portfolio-img-compi {
+  display: flex;
+  justify-content: center;
+  padding-left: 60%;
+  padding-right: 50%;
+}
+
+.portfolio-img-con2 {
+  position: relative; /* Needed for absolute positioning of hover elements */
+}
+
+.portfolio-img-con2:hover .hover-overlay {
+  opacity: 1; /* Overlay becomes fully visible on hover */
+}
+
+.portfolio-img-compi2 {
+  display: flex;
+  justify-content: center;
+  padding-left: 60%;
+  padding-right: 50%;
+  margin-top: -10px;
+}
+
+.testimontials-con {
+  padding-left: 50px;
+  padding-right: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  padding-bottom: 50px;
+
+  text-wrap: wrap;
+}
+
+.tes-img-con {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.test-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.tes-right {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  align-self: center;
+  padding-left: 10px;
+}
+
+.test-right-company {
+  color: gray;
+}
+
+.test-details {
+  width: 300px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.exp-skill-title:hover {
+  color: orange;
+  cursor: default;
+}
+
+.spacing-section3 {
+  height: 150px;
+
+}
+
+.contactMe-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.contactMe-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 10px;
+  font-size: small;
+  color: orange;
+}
+
+.contactMe-left {
+  width: 100%;
+  padding: 10px;
+}
+
+.contactMe-right {
+  width: 100%;
+  padding: 10px;
+  padding-left: 90px;
+  
+}
+
+.contactMe-left-title {
+  margin-top: 70px;
+  text-wrap: wrap;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+.contactMe-left-space {
+  height: 100px;
+}
+
+.contactMe-left-btn {
+  background-color: orange;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 5px;
+
+  transition: opacity 0.15s;
+}
+
+.contactMe-right-email {
+  color: gray;
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 20px;
+}
+
+.contactMe-right-my-email {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.contactMe-right-space {
+  height: 100px;
+}
+
+.contactMe-left-btn:hover {
+  opacity: 0.8;
+  cursor:pointer;
+}
+
+.contactMe-left-btn:active {
+  opacity: 0.6;
+}
+
+.contactMe-right-Phone {
+  color: gray;
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.contactMe-right-my-phone {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.contactMe-right-social {
+  color: gray;
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.contactMe-right-my-social {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.spacing-section4 {
+  height: 150px;
+
+}
+
+.footer-main-con {
+  margin-top: 40px;
+}
+
+.footer-text {
+  font-size: 15px;
+  padding-left: 20px;
+
+}
+
+.spacing-section5 {
+  height: 100px;
+}

@@ -1,0 +1,353 @@
+
+/* Tablet 768px */
+@media (max-width:768px) {
+  .name {
+    font-size: 17px;
+    color: orange;
+  }
+
+  .btn-resume {
+    width: 150px;
+  }
+
+  .li-style {
+    font-size: 15px;
+  }
+
+  .links-overlay {
+    top: 90%; /* Center the text vertically */
+    left: 20%; /* Center the text horizontally */
+    transform: translate(-20%, -20%); /* Adjust positioning for accurate centering */
+    font-size: 18px; /* Set the font size (adjust as needed) */
+  }
+
+  .front-greet {
+    font-size: 40px;
+  }
+
+  .about-right-img {
+   display: none;
+  }
+
+  .about-left-details {
+    margin-top: 70px;
+    text-wrap: wrap;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .about-left-profile-text {
+    margin-top: 10px;
+    text-wrap: wrap;
+    font-size: 18px;
+    line-height: 30px;
+    width: 400px;
+  }
+
+  .career-right {
+    display: none;
+  }
+  
+  .career-line {
+    width: 500px;  
+  }
+
+  .career-details {
+    font-size: medium;
+    width: 500px;
+  }
+
+  .portfolio-img {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+
+  .exp-left-info {
+   width: 400px;
+  }
+
+  .exp-right {
+    display: none;
+  }
+
+  .portfolio-img-compi, .portfolio-img-compi2 {
+    display: flex;
+    justify-content: center;
+    padding-left: 50%;
+    padding-right: 50%;
+  }
+
+  .test-details {
+    width: 150px;
+    height: 100px;
+    margin-top: 20px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .tes-img-con {
+    margin: 20px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .contactMe-con {
+    margin-top: 50px;
+  }
+
+  .contactMe-left-title {
+    font-size: 25px;
+    line-height: 50px;
+    padding-bottom: 20px;
+    
+  }
+
+  .contactMe-right-email, .contactMe-right-Phone, .contactMe-right-social {
+    font-size: medium;
+  }
+
+  .contactMe-right-my-email, .contactMe-right-my-phone, .contactMe-right-my-social {
+    font-size: 20px;
+  }
+
+  .contactMe-left-btn {
+    font-size: 10px;
+    font-weight: 700;
+    
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+  
+  }
+
+  .contactMe-left-space {
+    display: none;
+  }
+
+  .spacing-section5 {
+    height: 50px;
+  }
+}
+
+
+/* Mobile L 425px */
+@media (max-width:425px) {
+  .li-style {
+    display: none;
+  }
+
+  .links-overlay {
+    top: 100%; /* Center the text vertically */
+    left: 32%; /* Center the text horizontally */
+    transform: translate(-20%, -20%); /* Adjust positioning for accurate centering */
+    font-size: 18px; /* Set the font size (adjust as needed) */
+  }
+
+  .front-greet {
+    font-size: 30px;
+  }
+
+  .about-left-profile-text {
+    margin-top: 10px;
+    text-wrap: wrap;
+    font-size: 18px;
+    line-height: 30px;
+    width: 250px;
+  }
+
+  .about-left-details {
+    margin-top: 70px;
+    text-wrap: wrap;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .about-left-profile-text {
+    font-size: 15px;
+    line-height: 30px;
+    width: 200px;
+  }
+
+  .about-left-profile {
+    margin-top: 70px;
+  }
+
+  .about-section-con {
+    margin-top: 200px;
+  }
+
+  .career-line {
+    width: 400px;  
+  }
+
+  .career-details {
+    font-size: medium;
+    width: 400px;
+  }
+
+  .front-greet {
+    font-size: 30px;
+}
+
+  .career-line {
+    width: 250px;  
+  }
+
+  .career-details {
+    font-size: smaller;
+    width: 250px;
+  }
+
+  .exp-left-info {
+    display: none;
+  }
+
+  .testimontials-con {
+    display: none;
+  }
+
+  .portfolio-img {
+    width: 250px;
+    object-fit: contain;
+  }
+
+  .portfolio-details {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .exp-left-details {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .exp-left-info {
+    display: block;
+
+    font-size: 16px;
+    width: 300px;
+    line-height: 20px;  
+  }
+
+  .portfolio-img-con {
+    margin-top: 10px;
+  }
+
+  .spacing-section2, .spacing-section3 {
+    display: none;
+  }
+
+  .portfolio-con {
+    padding-top: 100px;
+  }
+
+  .contactMe-left-title {
+    text-wrap: wrap;
+
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  .contactMe-right-email, .contactMe-right-Phone, .contactMe-right-social {
+    font-size: small;
+  }
+
+  .contactMe-right-my-email, .contactMe-right-my-phone, .contactMe-right-my-social {
+    font-size: 15px;
+  }
+
+  .contactMe-right {
+    padding-left: 40px;
+    
+  }
+  
+
+}
+
+/* Mobile M 375px */
+@media (max-width:375px) {
+
+  .name, .btn-resume {
+    margin: auto;
+  }
+
+  .name {
+     font-size: 14px;
+  }
+
+  .links-overlay {
+    top: 90%; /* Center the text vertically */
+    left: 36%; /* Center the text horizontally */
+    transform: translate(-20%, -20%); /* Adjust positioning for accurate centering */
+    font-size: 18px; /* Set the font size (adjust as needed) */
+  }
+
+  .front-greet {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .career-line {
+    width: 200px;  
+  }
+
+  .career-details {
+    font-size: smaller;
+    width: 200px;
+  }
+
+  .exp-left-details {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .portfolio-img-compi {
+    padding-left: 20%;
+    padding-right: 50%;
+  }
+
+  .portfolio-img-con {
+    margin-top: 10px;
+  }
+
+  .spacing-section1 {
+    display: none;
+  }
+
+  .exp-left-info {
+    width: 200px;
+   }
+
+   .about-section-con, .career-con, .expertise-con, .portfolio-con {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .portfolio-img-con {
+    padding-left: 30px;
+  }
+
+  .portfolio-details {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .contactMe-right-my-email, .contactMe-right-my-phone, .contactMe-right-my-social {
+    font-size: 12px;
+  }
+}
+
+
+
+
