@@ -26,3 +26,16 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+
+const downloadButton = document.getElementById('downloadButton');
+const downloadLink = document.getElementById('downloadLink');
+
+ downloadButton.addEventListener('click', () => {
+            downloadLink.href
+
+   = 'jonelresume.pdf';
+            downloadLink.click();
+        });
+
+
+
