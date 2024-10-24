@@ -34,7 +34,8 @@ const downloadLink = document.getElementById('downloadLink');
             downloadLink.href
 
    = 'jonelresume.pdf';
-            downloadLink.click();
+           const event = new MouseEvent('click');
+            downloadLink.dispatchEvent(event);
         });
 
 
